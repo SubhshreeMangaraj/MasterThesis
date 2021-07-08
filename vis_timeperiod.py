@@ -1,21 +1,12 @@
-import dash
-import dash_core_components
+
 import dash_core_components as dcc
-import dash_bootstrap_components as dbc
-import dash_html_components
+
 import dash_html_components as html
-import pandas as pd
-import plotly.graph_objects as go
-import random
-from datetime import datetime
+
 from dash.dependencies import Input, Output
 from app import app
 import timeperiod_00_05,timeperiod_06_10,timeperiod_11_15,timeperiod_16_20
-import glob
-import os
 
-import time
-import json
 
 def layout():
     tab_style = {

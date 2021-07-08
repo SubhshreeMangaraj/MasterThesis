@@ -1,21 +1,10 @@
-import dash
-import dash_core_components
+
 import dash_core_components as dcc
-import dash_bootstrap_components as dbc
-import dash_html_components
+
 import dash_html_components as html
 import pandas as pd
 import plotly.graph_objects as go
-import random
-from datetime import datetime
-from dash.dependencies import Input, Output
-from app import app
 
-import glob
-import os
-
-import time
-import json
 san = pd.read_csv (r'C:\Users\Subhashree\Documents\KMD_Thesis\Complete Code Collection\DAPPER\Results of DAPPER\inputtopicevoldata.csv')
 san_s = san['source'].tolist()
 san_t = san['target'].tolist()

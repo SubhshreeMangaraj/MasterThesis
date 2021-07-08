@@ -1,17 +1,12 @@
 import dash
 import dash_core_components as dcc
-import dash_bootstrap_components as dbc
-import dash_html_components
-import dash_html_components as html
+
 import plotly.graph_objects as go
-import random
-from datetime import datetime
+
 from dash.dependencies import Input, Output,State
 from app import app
 import numpy as np
-import glob
-import os
-import time
+
 import json
 from io import BytesIO
 import pandas as pd
@@ -21,8 +16,7 @@ import dash_cytoscape as cyto
 import dash_html_components as html
 from sklearn.manifold import TSNE
 from gensim.models import AuthorTopicModel
-from gensim.corpora import mmcorpus
-from gensim.test.utils import common_dictionary, datapath, temporary_file
+
 
 # temp_file = datapath("C:/Users/Subhashree/Documents/KMD_Thesis/Data Final/ATM/model")
 #temp_file = datapath("C:/Users/Subhashree/Documents/KMD_Thesis/Complete Code Collection/Author Topic Model/model")

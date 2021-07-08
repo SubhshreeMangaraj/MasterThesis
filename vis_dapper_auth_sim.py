@@ -1,28 +1,22 @@
-import dash
-import dash_core_components
+
 import dash_core_components as dcc
-import dash_bootstrap_components as dbc
-import dash_html_components
+
 import dash_html_components as html
-import pandas as pd
+
 import plotly.graph_objects as go
-import random
-from datetime import datetime
+
 from dash.dependencies import Input, Output
 from app import app
+
 import dash_cytoscape as cyto
-import glob
-import os
-import dash_cytoscape as cyto
-from gensim.matutils import hellinger
+
 from scipy import spatial
-from gensim import matutils
+
 import dash
-import dash_table
+
 import pandas as pd
 # import dash_design_kit as ddk
-import time
-import json
+
 #import file of persona evolution
 dfw = pd.read_csv (r'DAPPER_auth_sim\persona_topic.csv')
 drop_optnw = ['Persona0', 'Persona1', 'Persona2', 'Persona3']

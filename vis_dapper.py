@@ -1,21 +1,10 @@
-import dash
-import dash_core_components
+
 import dash_core_components as dcc
-import dash_bootstrap_components as dbc
-import dash_html_components
+
 import dash_html_components as html
-import pandas as pd
-import plotly.graph_objects as go
-import random
-from datetime import datetime
+
 from dash.dependencies import Input, Output
-from app import app
 
-import glob
-import os
-
-import time
-import json
 
 from app import app
 import vis_dapper_home,vis_dapper_variant1, Dapper_dynamic,vis_timeperiod

@@ -1,15 +1,9 @@
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-import urllib.parse as urlparse
-from urllib.parse import parse_qs
 
 from app import app
 import vis_lda, vis_dtm, vis_detm, vis_atm, vis_tot, vis_dapper
-import glob
-import os
-import sys
-import subprocess
 
 tabs_styles = {
     'height': '44px'

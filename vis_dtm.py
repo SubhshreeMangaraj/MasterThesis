@@ -1,25 +1,19 @@
 import dash
-import dash_core_components
+
 import dash_core_components as dcc
-import dash_bootstrap_components as dbc
-import dash_html_components
+
 import dash_html_components as html
 import pandas as pd
 import plotly.graph_objects as go
-import random
-from datetime import datetime
+
 from dash.dependencies import Input, Output,State
 from app import app
 from gensim.models import ldaseqmodel
-import glob
-import os
+
 import plotly.express as px
-from gensim.test.utils import datapath
-import time
+
 import json
-from wordcloud import WordCloud
-import base64
-from io import BytesIO
+
 
 
 rest1 = pd.read_csv (r'DTM\rest1.csv')

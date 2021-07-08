@@ -1,20 +1,16 @@
 import dash
-import dash_core_components
+
 import dash_core_components as dcc
-import dash_bootstrap_components as dbc
-import dash_html_components
+
 import dash_html_components as html
 import pandas as pd
 import plotly.graph_objects as go
-import random
+
 from scipy import spatial
-from datetime import datetime
+
 from dash.dependencies import Input, Output
 from app import app
-import glob
-import os
-import time
-import json
+
 import dash_cytoscape as cyto
 #import file of persona evolution
 df_16_20 = pd.read_csv (r'DAPPER_16_20\persona_topic.csv')
